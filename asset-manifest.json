@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/chuck-norris/static/css/main.7a39dc7a.chunk.css",
+    "main.js": "/chuck-norris/static/js/main.08bba491.chunk.js",
+    "main.js.map": "/chuck-norris/static/js/main.08bba491.chunk.js.map",
+    "runtime-main.js": "/chuck-norris/static/js/runtime-main.5a2d1b87.js",
+    "runtime-main.js.map": "/chuck-norris/static/js/runtime-main.5a2d1b87.js.map",
+    "static/js/2.4b05494e.chunk.js": "/chuck-norris/static/js/2.4b05494e.chunk.js",
+    "static/js/2.4b05494e.chunk.js.map": "/chuck-norris/static/js/2.4b05494e.chunk.js.map",
+    "index.html": "/chuck-norris/index.html",
+    "precache-manifest.edadaad3b32ca763cca9181642b85819.js": "/chuck-norris/precache-manifest.edadaad3b32ca763cca9181642b85819.js",
+    "service-worker.js": "/chuck-norris/service-worker.js",
+    "static/css/main.7a39dc7a.chunk.css.map": "/chuck-norris/static/css/main.7a39dc7a.chunk.css.map",
+    "static/js/2.4b05494e.chunk.js.LICENSE.txt": "/chuck-norris/static/js/2.4b05494e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a2d1b87.js",
+    "static/js/2.4b05494e.chunk.js",
+    "static/css/main.7a39dc7a.chunk.css",
+    "static/js/main.08bba491.chunk.js"
+  ]
+}
