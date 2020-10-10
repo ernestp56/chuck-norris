@@ -1,0 +1,26 @@
+.joke-wrapper {
+    background-color: #518993;
+    color: #fff;
+    box-shadow: rgb(0,0,0, 0.2);
+    min-height: 50px;
+    padding: 1em 2em 2em 2em;
+    text-align: start;
+    margin-top: 1.5em;
+}
+
+.joke-wrapper:nth-child(odd) {
+    opacity: 0.8;
+}
+
+.joke-category {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+.material-icons.jokeCard {
+    margin-top: 30px;
+}
+
+.random > .joke-wrapper:active {
+    transform: perspective(200px) translate3d(0, 0, 10px);
+}
