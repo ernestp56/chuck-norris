@@ -7,7 +7,9 @@ import Search from './components/Search'
 class App extends Component {
   constructor() {
     super();
-    this.state = { searchValue: '' }
+    this.state = { searchValue: '' };
+
+    this.handleKeyDown.bind(this);
   }
 
   handleChange(e) {
@@ -15,11 +17,17 @@ class App extends Component {
   }
 
   handleClick() {
-    this.setState({ searchValue: this.state.input });
+    this.setState({ searchValue: this.input });
   }
-
+  
   clearInput() {
     this.setState({ searchValue: '', input: '' })
+  }
+  
+  handleKeyDown(e) {
+    if (e.key === 'Enter') {
+      this.setState({ searchValue: e.target.value });
+    }
   }
 
   render() {
@@ -33,6 +41,7 @@ class App extends Component {
             type="text"
             placeholder="Search by word..."
             onChange={this.handleChange.bind(this)}
+            onKeyPress={this.handleKeyDown.bind(this)}
           />
           <input
             type="button"
@@ -43,8 +52,7 @@ class App extends Component {
         </header>
         <RandomJoke />
         {this.state.searchValue ? (
-            this.state.searchValue && (this.state.searchValue === this.state.input) ? 
-              <Search searchValue = { this.state.searchValue } /> : <div className='container-padding'>Press Search to see the results</div>
+              <Search searchValue = { this.state.searchValue } />
         ) : (
           <Categories />
         )}

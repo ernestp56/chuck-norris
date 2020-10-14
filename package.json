@@ -1,8 +1,8 @@
 {
-  "name": "react",
+  "name": "chuck-norris",
   "version": "1.0.0",
   "description": "React example starter project",
-  "homepage": "http://ernper56.github.io/react-countries",
+  "homepage": "http://ernper56.github.io/chuck-norris",
   "keywords": [
     "react",
     "starter"
