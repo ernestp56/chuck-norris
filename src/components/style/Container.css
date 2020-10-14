@@ -7,3 +7,7 @@
     grid-gap: 1em;
     padding: 2em;
 }
+
+.container-wrapper.random {
+    min-height: 200px
+}
