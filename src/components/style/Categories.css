@@ -19,8 +19,23 @@
     transition: 0.01s;
 }
 
+
+.category:hover {
+    box-sizing: border-box;
+    border: 1px solid rgba(34, 34, 34, 0.719);
+    background-color: #fff;
+    color: #518993;
+}
+
 .category:nth-child(odd) {
-    opacity: 0.8;
+    background-color: #7daeb6;
+}
+
+.category:nth-child(odd):hover {
+    box-sizing: border-box;
+    border: 1px solid rgba(34, 34, 34, 0.719);
+    background-color: #fff;
+    color: #7daeb6;
 }
 
 .category > span {

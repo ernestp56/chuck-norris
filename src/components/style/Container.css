@@ -11,3 +11,7 @@
 .container-wrapper.random {
     min-height: 200px
 }
+
+.container-wrapper.random > .joke-wrapper {
+    border-radius: 1em;
+}
