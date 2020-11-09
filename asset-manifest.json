@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/chuck-norris/static/css/main.ba7c6455.chunk.css",
-    "main.js": "/chuck-norris/static/js/main.f211a37d.chunk.js",
-    "main.js.map": "/chuck-norris/static/js/main.f211a37d.chunk.js.map",
+    "main.css": "/chuck-norris/static/css/main.eb33178f.chunk.css",
+    "main.js": "/chuck-norris/static/js/main.8f2fc492.chunk.js",
+    "main.js.map": "/chuck-norris/static/js/main.8f2fc492.chunk.js.map",
     "runtime-main.js": "/chuck-norris/static/js/runtime-main.5a2d1b87.js",
     "runtime-main.js.map": "/chuck-norris/static/js/runtime-main.5a2d1b87.js.map",
     "static/js/2.4b05494e.chunk.js": "/chuck-norris/static/js/2.4b05494e.chunk.js",
     "static/js/2.4b05494e.chunk.js.map": "/chuck-norris/static/js/2.4b05494e.chunk.js.map",
     "index.html": "/chuck-norris/index.html",
-    "precache-manifest.62e50745bdc071dbb47443b07e5210ad.js": "/chuck-norris/precache-manifest.62e50745bdc071dbb47443b07e5210ad.js",
+    "precache-manifest.18a57b83f8c31416c92ca54eefee8a7a.js": "/chuck-norris/precache-manifest.18a57b83f8c31416c92ca54eefee8a7a.js",
     "service-worker.js": "/chuck-norris/service-worker.js",
-    "static/css/main.ba7c6455.chunk.css.map": "/chuck-norris/static/css/main.ba7c6455.chunk.css.map",
+    "static/css/main.eb33178f.chunk.css.map": "/chuck-norris/static/css/main.eb33178f.chunk.css.map",
     "static/js/2.4b05494e.chunk.js.LICENSE.txt": "/chuck-norris/static/js/2.4b05494e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5a2d1b87.js",
     "static/js/2.4b05494e.chunk.js",
-    "static/css/main.ba7c6455.chunk.css",
-    "static/js/main.f211a37d.chunk.js"
+    "static/css/main.eb33178f.chunk.css",
+    "static/js/main.8f2fc492.chunk.js"
   ]
 }
