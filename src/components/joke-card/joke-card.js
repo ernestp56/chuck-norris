@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './style/JokeCard.css'
+import './joke-card.css'
 
 class JokeCard extends Component {
     render() {

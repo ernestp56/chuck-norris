@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Categories from './components/Categories'
-import RandomJoke from './components/RandomJoke';
-import Search from './components/Search'
+import Categories from './components/categories/categories'
+import RandomJokeCard from './components/random-joke-card/random-joke-card';
+import Search from './components/search/search'
 
 class App extends Component {
   constructor() {
@@ -50,7 +50,7 @@ class App extends Component {
           />
           {this.state.searchValue ? <div className='container-padding'><input type="button" value="Go back to categories" onClick={this.clearInput.bind(this)} /></div> : <div></div>}
         </header>
-        <RandomJoke />
+        <RandomJokeCard />
         {this.state.searchValue ? (
               <Search searchValue = { this.state.searchValue } />
         ) : (

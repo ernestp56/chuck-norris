@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import JokeCard from '../components/JokeCard';
+import './random-joke-card.css'
+import JokeCard from '../joke-card/joke-card';
 
-class RandomJoke extends Component {
+class RandomJokeCard extends Component {
     constructor() {
         super();
         this.state = { joke: [], fetching: false }
@@ -38,4 +39,4 @@ class RandomJoke extends Component {
     }
 }
 
-export default RandomJoke
+export default RandomJokeCard

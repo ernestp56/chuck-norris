@@ -12,6 +12,13 @@
     min-height: 200px
 }
 
-.container-wrapper.random > .joke-wrapper {
-    border-radius: 1em;
+.jokes-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    padding: 2em 0;
+}
+
+.title {
+    grid-column: 1/3;
 }

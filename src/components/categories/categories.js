@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './style/Categories.css';
-import Category from './Category';
+import './categories.css';
+import Category from '../category/category';
 
 class Categories extends Component {
     constructor() {

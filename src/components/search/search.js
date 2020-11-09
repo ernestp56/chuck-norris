@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import JokeCard from './JokeCard';
-import './style/Container.css'
+import JokeCard from '../joke-card/joke-card';
+import './search.css'
 
 class Search extends Component {
     constructor(props) {
@@ -34,7 +34,9 @@ class Search extends Component {
                 {this.props.searchValue.length > 2 ? (
                     <div>
                         <div className='title'>Searched by word: {this.state.searchValue}</div>
-                        {this.state.jokes.length !== 0 ? this.renderJokes() : 'loading...'}
+                        <div className='jokes-wrapper'>
+                            {this.state.jokes.length !== 0 ? this.renderJokes() : 'loading...'}
+                        </div>
                     </div>
                 ) : (
                     <div>Too short search query</div>
