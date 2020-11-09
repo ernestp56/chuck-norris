@@ -22,3 +22,18 @@
 .title {
     grid-column: 1/3;
 }
+
+
+@media (max-width: 900px) {
+    .jokes-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .jokes-wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+}

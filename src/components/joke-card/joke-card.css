@@ -1,24 +1,27 @@
 .joke-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-width: 200px;
+    min-height: 100px;
+    padding: 1em;
     background-color: #dee2e1;
     color: #222;
-    min-height: 50px;
-    padding: 1em 2em 2em 2em;
-    text-align: start;
+    transition: 0.01s;
+    box-sizing: border-box;
     border: 1px solid transparent;
 }
+
 
 .joke-wrapper:hover {
     border: 1px solid rgba(34, 34, 34, 0.7);
     background-color: #ececec;
 }
 
-.joke-wrapper:nth-child(4n),
-.joke-wrapper:nth-child(4n - 3) {
+.joke-wrapper:nth-child(odd) {
     background-color: #dfd5bd;
 }
 
-.joke-wrapper:nth-child(4n):hover,
-.joke-wrapper:nth-child(4n - 3):hover {
+.joke-wrapper:nth-child(odd):hover {
     border: 1px solid rgba(34, 34, 34, 0.7);
     background-color: #e6dfcf;
 }
@@ -31,4 +34,24 @@
 
 .material-icons.jokeCard {
     margin: 1em;
+}
+
+@media (min-width: 600px) {    
+    .joke-wrapper {
+        background-color: #dee2e1!important;
+    }
+
+    .joke-wrapper:hover {
+        background-color: #ececec!important;
+    }
+    
+    .joke-wrapper:nth-child(4n),
+    .joke-wrapper:nth-child(4n - 3) {
+        background-color: #dfd5bd!important;
+    }
+    
+    .joke-wrapper:nth-child(4n):hover,
+    .joke-wrapper:nth-child(4n - 3):hover {
+        background-color: #e6dfcf!important;
+    }
 }
